@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Eevee_Activity">
+    <TextView
+            android:text="@string/Welcome_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/ClickerCounter"
+            tools:layout_editor_absoluteX="5dp" android:padding="10dp" android:paddingStart="10dp"
+            android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingEnd="10dp" android:paddingRight="10dp"
+            android:paddingBottom="10dp" android:textColor="#9C27B0" android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@+id/Level" android:layout_marginTop="50dp"/>
+    <TextView
+            android:text="@string/Level_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/Level" tools:layout_editor_absoluteY="8dp"
+            android:padding="10dp" android:paddingStart="10dp"
+            android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingEnd="10dp" android:paddingRight="10dp"
+            android:paddingBottom="10dp" android:textColor="#9C27B0" android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@+id/ClickerCounter"/>
+    <ImageView
+            android:layout_width="136dp"
+            android:layout_height="169dp" app:srcCompat="@drawable/eevee" android:id="@+id/eeveeImage"
+            tools:layout_editor_absoluteY="272dp" tools:layout_editor_absoluteX="250dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

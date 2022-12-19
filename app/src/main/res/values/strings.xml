@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Welcome_Text">Click Eevee to start</string>
+    <string name="Level_Text">level 1</string>
+</resources>
